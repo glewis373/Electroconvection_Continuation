@@ -4,6 +4,7 @@ Code for the Newton-Krylov Continuation of Amplitude Modulated Waves in Electroc
 Contributors:  J. Jabbour, G. Lewis, M. Pugh, P.-C. Tsai 
 
 This repository contains the Matlab code for the continuation of amplitude-modulated waves as presented in the manuscript 'Newton-Krylov continuation of amplitude-modulated waves in sheared annular electroconvection' (submitted to Physical Review E).  
+
 To run the code, copy the files to your directory of choice, making sure the subfolder file structure is maintained, execute the 'init' file, and then, to run the code itself, execute the 'Continuation_Caller' file.
 
 'init.m' - executing this adds the required paths for accessing the code in the subdirectories  
