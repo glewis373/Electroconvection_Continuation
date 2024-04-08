@@ -13,3 +13,13 @@ To run the code, copy the files to your directory of choice, making sure the sub
 The 'SimCode' folder contains the time-stepping code for the simulation of sheared annular electroconvection; the function 'TS_3x_trunc.m' can be called to run a simulation 
 The 'mat_files' folder contains the data files used to initialize the computation
 The 'Utilities' folder contains code for functions used in the Newton iterations, etc. 
+
+NOTES: 
+- In the repository code, the preconditioner will be compute at the first branch point. To avoid this calculation you can use the following mat-file which contains a pre-computed preconditioner for Ra = 625   
+https://drive.google.com/file/d/1psStZ_d0iN5oIVTnvpfqHAuTDLiveaPb/view?usp=sharing
+
+- In the repository code, the precoditioner is computed with 'parfor' (the Matlab parallel for-loop). If you are not able to access this feature, change 'parfor' to 'for', with unfortunately a corresponding increase in computation time.
+
+  
+
+-   
