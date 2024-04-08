@@ -16,7 +16,7 @@ Main files and folders:
 - The 'Utilities' folder contains code for functions used in the Newton iterations, etc. 
 
 NOTES: 
-- In the repository code, the preconditioner will be compute at the first branch point. To avoid this calculation you can use the following mat-file which contains a pre-computed preconditioner for Ra = 625   
+- In the repository code, the preconditioner is computed at the first branch point. To avoid this calculation you can use the following mat-file which contains a pre-computed preconditioner for the first branch point at Ra = 625:   
 https://drive.google.com/file/d/1psStZ_d0iN5oIVTnvpfqHAuTDLiveaPb/view?usp=sharing
 
 - In the repository code, the precoditioner is computed with 'parfor' (the Matlab parallel for-loop). If you are not able to access this feature, change 'parfor' to 'for', with unfortunately a corresponding increase in computation time.
