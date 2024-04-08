@@ -89,7 +89,7 @@ end
 while (test)
 
   %%%%  for selecting preconditioner %%%%
-  if ( (New_iter == 1) ) & (mod(round(10*Ra),5)==0 )
+  if ( (New_iter == 0) ) & (mod(round(10*Ra),5)==0 )
     
     %%%  computing preconditioner DMonoD %%%
 
